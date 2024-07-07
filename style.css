@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #F1F2F4;
+    width: 100%;
+}
+
+.container {
+    padding: 0 0;
+}
+
+.header {
+    background-color: white;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.search-bar {
+    width: 40%;
+    display: flex;
+
+
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 0 5px;
+    border-left: none;
+    margin: 0 0;
+    background-color: #e4ebfb;
+    border: none;
+    font-size: 12px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+
+
+
+}
+
+.search-bar i {
+    border: solid 1.5px;
+    border-right: none;
+    padding: 5px;
+    margin: 0 0;
+    border: none;
+    color: #7D8085;
+    font-size: 12px;
+    background-color: #e4ebfb;
+    border-radius: 5px 0 0 5px;
+}
+
+.header-list i {
+    margin: 0 5px;
+}
+
+.header-list span {
+    font-size: 12px;
+}
+
+.header-list span a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/******************************************************************
+* Here our header two start 
+*******************************************************************/
+
+
+.header-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    /* margin-top: 50px; */
+}
+
+.header-two ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 12px;
+    height: 100%;
+    margin: 0 0;
+}
+
+.header-two ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.header-two ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-two-wraper {
+    width: 80%;
+    height: 100%;
+}
+
+.header-two ul li:hover>a {
+    color: #2874f0;
+
+}
+
+/******************************************************************
+* Here our shop list start 
+*******************************************************************/
+
+.shop-list-container {
+    display: flex;
+
+}
+
+.shop-list-first {
+    background-color: white;
+    width: 90%;
+    margin: 0 1% 0 0;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;-
+}
+
+.shop-list-container .shop-list-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shop-list-img img {
+    border: solid rgb(197, 197, 197) 1px;
+}
+
+.shop-list-first .shop-list-titel span {
+    font-weight: bold;
+}
+
+.shop-list-container .shop-list-first .shop-list-titel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.shop-list-first .shop-list-titel i {
+    color: rgb(0, 34, 255);
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+
+/******************************************************************
+* Here our box list start 
+*******************************************************************/
+
+.shop-box-list .shop-box-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-box-list .shop-box-wraper .box {
+    height: auto;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.box .box-list-item {
+    border: solid 1px rgb(179, 179, 179);
+    margin: 5px;
+}
+
+.box .box-titel span {
+    font-weight: bold;
+}
+
+.box .box-titel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .box-titel i {
+    color: blue;
+}
+
+
+/******************************************************************
+* Here our footer start 
+*******************************************************************/
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+footer .footer-wraper .row .footer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-wraper .row .footer-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+/******************************************************************
+* Here our second footer start 
+*******************************************************************/
+
+
+.sec-footer-wraper .sec-footer-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.sec-footer-wraper .sec-footer-list .sec-footer-item {
+    color: white;
+    font-size: 10px;
+}
+
+.sec-footer-wraper .sec-footer-list .footer-social i {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/******************************************************************
+* Here our second page product page start 
+*******************************************************************/
+.product-header {
+    background-color: #2874f0;
+
+}
+
+.product-header .container header .header-icon {
+    color: white;
+}
+
+.product-header .container header span a {
+
+    color: white;
+}
+
+.sec-product-header {
+    width: 100%;
+    height: 50px;
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.sec-product-header .sec-product-header-wraper ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-product-header .sec-product-header-wraper ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sec-product-header .sec-product-header-wraper ul li:hover>a {
+
+    color: blue;
+
+}
+
+
+
+
+
+
+
+.product-price {
+    height: 1000px;
+    scroll-behavior: smooth;
+
+}
+
+.product-price .row .product-price-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-price .row .product-price-left .btn1 .orange-btn {
+    background-color: #ff9f00;
+    border: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    height: 130%;
+}
+
+.product-price .row .product-price-left .btn1 .red-btn {
+    background-color: #fb641b;
+    border: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    height: 130%;
+}
+
+.product-price .product-img {
+    position: sticky;
+
+}
+
+.product-price .row .product-price-left .btn1 .red-btn:hover {
+
+    background-color: gold;
+}
+
+.product-price .row .product-price-left .btn1 .orange-btn:hover {
+    background-color: #fb641b;
+
+}
