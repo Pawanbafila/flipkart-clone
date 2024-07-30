@@ -278,23 +278,74 @@
 </div>
 
 
-<div class="container shop-list-container  mt-3" >
-    <div class="shop-list-first" style="width: 100%; margin: 0 0;">
-<div class="shop-list-titel">
-    <span>Beauty,Food,Toys & more </span>
-    <i class="fa-solid fa-circle-chevron-right"></i>
-</div>
-<div class="shop-list-img">
-    <img src="images/bike.jpeg" width="15%"  alt="">
-    <img src="images/bike.jpeg" width="15%"  alt="">
-    <img src="images/bike.jpeg" width="15%"  alt="">
-    <img src="images/bike.jpeg" width="15%"  alt="">
-    <img src="images/bike.jpeg" width="15%"  alt="">
-</div>
-</div>
 
 
-</div>
+<div class="mt-5 container" >
+    <div class="card rounded-4">
+      <div class="card-body">
+        <div class="row">
+          <div
+            class="Sliderable"
+            data-items="1,2,3,4"
+            data-slide="1"
+            id="Sliderable"
+          >
+            <div class="Sliderable-inner">
+              <div class="item">
+                <div>
+                    <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                    <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                 <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                 <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                 <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                 <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                 <img src="images/bike.jpeg" width="100%"  alt="">
+                </div>
+              </div>
+              
+            </div>
+            <button class="btn btn-light btn-left" style="background-color: transparent;">
+                <i class="fa-solid fa-circle-chevron-left" style="color: #0000FF;"></i>
+            </button>
+            <button class="btn btn-light btn-right"  style="background-color: transparent;">
+                <i class="fa-solid fa-circle-chevron-left" style="color: #0000FF; transform: rotate(180deg)"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
 
 
 
@@ -389,6 +440,18 @@
 
 
 
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="sliderable.js"></script>
+        <script>
+        // Configuration object for options
+        var options = {
+            autoPlay: true, // Or false
+            autoPlayInterval: 3000, // Autoplay interval in milliseconds
+            swipeThreshold: 50, // Minimum swipe distance in pixels
+        };
+        </script>
 
 
 
