@@ -15,3 +15,26 @@
 
     
 }
+
+@media (max-width: 575px) {
+    
+
+
+    .header-two-wraper {
+        display: none;
+      }
+      .header-two {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: white;
+        height: 100px;
+        width: 100%;
+        /* margin-top: 50px; */
+    }
+    .header-two .bar{
+        font-size: 30px;
+        margin-right: 20px;
+        display: block;
+    }
+}

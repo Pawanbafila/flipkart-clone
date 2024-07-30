@@ -81,7 +81,59 @@ header {
 /******************************************************************
 * Here our header two start 
 *******************************************************************/
+.header-two-hide{
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: none;
+  transition: all ease-in-out 1s ;
+  }
+  .header-two-hide i{
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #2874f0;
+  }
+.header-two-hide ul{
+    width: 100%;
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-two-hide ul li a{
+    text-decoration: none;
+}
+.header-two-hide ul li{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-two-hide ul li:hover{
+background-color: rgb(170, 170, 170);
+}
+.header-two-hide ul li:hover > a{
+color: white;
 
+}
+
+/******************************************************************
+* Here our desktop sec nav 
+*******************************************************************/
 
 .header-two {
     display: flex;
@@ -91,6 +143,10 @@ header {
     height: 100px;
     width: 100%;
     /* margin-top: 50px; */
+}
+.header-two .bar{
+    font-size: 30px;
+    display: none;
 }
 
 .header-two ul {
@@ -373,7 +429,6 @@ footer .footer-wraper .row .footer-list a {
     float: left;
     overflow: hidden;
     padding: 15px;
-    width: 100%;
     position: relative;
 }
 
