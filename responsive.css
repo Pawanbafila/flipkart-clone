@@ -55,4 +55,21 @@ header{
     .header-two .logo {
         display: block;
     }
+.top-car {
+    height: 150px !important;
+    background-color: red;
+}
+.top-car .inner-car{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+
+}
+.inner-car .item-car .img-car{
+    width: 100%;
+    object-fit: cover !important;
+    object-position: center;
+    height: 150px;
+    background-color: green;
+}
 }
