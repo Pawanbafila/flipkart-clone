@@ -9,6 +9,7 @@ body {
     height: 100%;
     background-color: #F1F2F4;
     width: 100%;
+    
 }
 
 .container {
@@ -24,7 +25,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    flex-wrap: wrap;
+    height: fit-content;
     width: 100%;
 }
 
@@ -165,6 +167,15 @@ color: white;
 .header-two .bar{
     font-size: 30px;
     display: none;
+}
+.header-two .logo {
+    display: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 10%;
+ margin-left: 10px;
+ display: none;
 }
 
 .header-two ul {
