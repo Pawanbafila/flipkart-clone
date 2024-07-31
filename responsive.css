@@ -17,7 +17,9 @@
 }
 
 @media (max-width: 575px) {
-    
+    .container{
+        width: 100% !important !important;
+    }
 
 
     .header-two-wraper {

@@ -97,6 +97,7 @@ header {
     scrollbar-width: none;
     display: none;
   transition: all ease-in-out 1s ;
+  animation: slideron 1s ease-in-out;
   }
   .header-two-hide i{
     font-size: 30px;
@@ -131,6 +132,23 @@ color: white;
 
 }
 
+@keyframes slideron {
+    0%{
+        right: -130%;
+        top: 0;
+    }
+    100%{
+        right: 0;
+        top: 0;
+    }
+}
+@keyframes slideroff {
+    100%{
+        right: -130%;
+        top: 0;
+    }
+  
+}
 /******************************************************************
 * Here our desktop sec nav 
 *******************************************************************/
@@ -240,6 +258,7 @@ color: white;
 .shop-box-list .shop-box-wraper {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .shop-box-list .shop-box-wraper .box {
