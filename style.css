@@ -173,9 +173,8 @@ color: white;
  display: flex;
  justify-content: center;
  align-items: center;
- width: 10%;
- margin-left: 10px;
- display: none;
+ width: 25%;
+  display: none;
 }
 
 .header-two ul {
@@ -289,24 +288,39 @@ color: white;
 /******************************************************************
 * Here our box list start 
 *******************************************************************/
-
+.shop-box-list{
+    width: 100%;
+    height: fit-content;
+}
 .shop-box-list .shop-box-wraper {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
    
 }
-
-.shop-box-list .shop-box-wraper .box {
+.shop-box-list .shop-box-wraper .row{
     height: auto;
-    width: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-box-list .shop-box-wraper .row .box {
+    height: auto;
+    width: 30% ;
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
-
+.shop-box-list .shop-box-wraper .hide-box{
+    display: none;
+}
 .box .box-list-item {
-    border: solid 1px rgb(179, 179, 179);
+    /* border: solid 1px rgb(179, 179, 179); */
     margin: 5px;
 }
 
@@ -322,6 +336,69 @@ color: white;
 .box .box-titel i {
     color: blue;
 }
+
+
+
+
+
+
+/* Sliderable */
+
+.Sliderable {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+
+.Sliderable .Sliderable-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.Sliderable .Sliderable-inner .item {
+    float: left;
+}
+
+.Sliderable .Sliderable-inner .item > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #222;
+    color: #fff;
+}
+
+.Sliderable .btn-left,
+.Sliderable .btn-right {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.Sliderable .btn-left {
+    left: 0;
+}
+
+.Sliderable .btn-right {
+    right: 0;
+}
+
+.Sliderable .btn-left.over,
+.Sliderable .btn-right.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /******************************************************************
@@ -474,52 +551,3 @@ footer .footer-wraper .row .footer-list a {
 
 }
 
-
-
-
-/* Sliderable */
-
-.Sliderable {
-    float: left;
-    overflow: hidden;
-    padding: 15px;
-    position: relative;
-}
-
-.Sliderable .Sliderable-inner {
-    transition: 1s ease all;
-    float: left;
-}
-
-.Sliderable .Sliderable-inner .item {
-    float: left;
-}
-
-.Sliderable .Sliderable-inner .item > div {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    background: #222;
-    color: #fff;
-}
-
-.Sliderable .btn-left,
-.Sliderable .btn-right {
-    position: absolute;
-    border-radius: 50%;
-    top: calc(50% - 20px);
-}
-
-.Sliderable .btn-left {
-    left: 0;
-}
-
-.Sliderable .btn-right {
-    right: 0;
-}
-
-.Sliderable .btn-left.over,
-.Sliderable .btn-right.over {
-    pointer-events: none;
-    background: #ccc;
-}

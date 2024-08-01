@@ -41,7 +41,8 @@ header{
         justify-content: space-between;
         align-items: center;
         background-color: white;
-        height: 100px;
+        height: fit-content;
+        padding: 10px;
         width: 100%;
         /* margin-top: 50px; */
     }
@@ -113,4 +114,24 @@ header{
 .shop-list-img .hide-img{
     display: block;
 }
+
+/******************************************************************
+* Here our sec shop list 
+*******************************************************************/
+/* .shop-box-list .shop-box-wraper .row .box {
+    height: auto;
+    width: 100% !important;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.shop-box-list .shop-box-wraper .hide-box{
+    display: block;
+}
+.shop-box-list .shop-box-wraper .img-box{
+width: 100%;
+
+} */
 }
