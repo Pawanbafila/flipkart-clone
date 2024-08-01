@@ -144,7 +144,7 @@ header{
 /******************************************************************
 * Here our sec shop list 
 *******************************************************************/
-/* .shop-box-list .shop-box-wraper .row .box {
+.shop-box-list .shop-box-wraper .row .box {
     height: auto;
     width: 100% !important;
     background-color: white;
@@ -159,5 +159,7 @@ header{
 .shop-box-list .shop-box-wraper .img-box{
 width: 100%;
 
-} */
+}
+
+
 }
