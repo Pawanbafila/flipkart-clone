@@ -1,4 +1,8 @@
-@media (max-width:991px) {}
+@media (max-width:991px) {
+    .container {
+        width: 100% !important;
+    }
+}
 
 @media (max-width: 575px) {
     .container {
@@ -25,11 +29,32 @@ header{
 
 }
 .search-bar i{
+    font-size: 4vw;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
+.header-list i {
+    margin: 0 5px;
+    font-size: 4.5vw;
+}
+
+.header-list span {
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
 
 
     .header-two-wraper {
@@ -55,6 +80,7 @@ header{
 
     .header-two .logo {
         display: block;
+        width: 20vw;
     }
 .top-car {
     height: 150px !important;
