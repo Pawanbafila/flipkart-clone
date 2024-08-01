@@ -15,3 +15,14 @@
            menu.style.display = 'none';
         }, 800); // Match the duration of the animation
     }
+
+
+    //locomotive
+
+    
+const scroll = new LocomotiveScroll({
+   el: document.querySelector('[data-scroll-container]'),
+   smooth: true,
+   lerp: 0.04,
+  
+});
